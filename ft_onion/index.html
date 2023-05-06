@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Pagina Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      nav {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+
+      nav li {
+        margin-left: 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      footer {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mi Página Web</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <a href="#" id="login-link">Iniciar sesión</a>
+    </nav>
+    <section>
+      <h2>Bienvenidos a mi pagina web</h2>
+      <p>En esta pagina podras encontrar informacion sobre nuestros servicios y productos.</p>
+      <p>También podras contactarnos a traves de nuestro formulario de contacto.</p>
+      <button id="contact-btn">Contactanos</button>
+    </section>
+    <footer>
+      <p>Derechos Reservados &copy; 2023 Mi Pagina Web</p>
+    </footer>
+    <script>
+      // Interactividad para el botón "Contactanos"
+      const contactButton = document.getElementById("contact-btn");
+      contactButton.addEventListener("click", () => {
+        alert("Gracias por contactarnos. Te responderemos pronto.");
+      });
+
+      // Interactividad para el enlace "Iniciar sesión"
+      const loginLink = document.getElementById("login-link");
+      loginLink.addEventListener("click", () => {
+        alert("Inicia sesión para acceder a tu cuenta.");
+      });
+    </script>
+  </body>
+</html>

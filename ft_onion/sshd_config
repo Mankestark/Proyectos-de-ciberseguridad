@@ -1,0 +1,10 @@
+Port 4242
+#PermitRootLogin prohibit-password
+ChallengeResponseAuthentication no
+PasswordAuthentication yes
+UsePAM no
+PubkeyAuthentication no
+
+MaxAuthTries 3
+
+
