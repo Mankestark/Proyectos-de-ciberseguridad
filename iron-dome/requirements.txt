@@ -1,0 +1,4 @@
+psutil
+watchdog
+python-magic-bin;python_version < "3.8"
+python-magic;python_version >= "3.8"

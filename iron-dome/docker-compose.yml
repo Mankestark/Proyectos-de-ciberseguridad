@@ -1,0 +1,12 @@
+version: "3"
+services:
+  irondome:
+    build: .
+    image: idom
+    container_name: idom
+    hostname: idom
+    environment:
+      #EXTMON: .txt .c .doc
+      DIRMON: /data1
+    volumes:
+      - /tmp/test:/data1
