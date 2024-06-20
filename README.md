@@ -11,7 +11,7 @@ Desarrollo de herramientas para análisis de vulnerabilidades web.
 Implementación de un sistema básico de blockchain.
 
 ### ft_onion
-Implementación de un servicio de comunicación segura utilizando la técnica de enrutamiento cebolla.
+Implementación de un servicio de comunicación segura utilizando la técnica de enrutamiento onion.
 
 ### ft_otp
 Sistema de generación y validación de contraseñas de un solo uso (OTP).
@@ -21,10 +21,6 @@ Proyecto de seguridad defensiva centrado en la detección y mitigación de ataqu
 
 ### stockholm
 Simulación de ataques de ransomware y estrategias de defensa.
-
-## Cómo Usar
-
-Cada proyecto incluye un README detallado con instrucciones sobre cómo desplegar y utilizar las herramientas desarrolladas. Es recomendable revisar estos documentos para obtener información específica de cada proyecto.
 
 ## Licencia
 
