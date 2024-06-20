@@ -5,7 +5,7 @@ En este repositorio se encuentran los proyectos que se han aprobado en el campus
 ## Descripción de Proyectos
 
 ### arachnida
-Desarrollo de herramientas para análisis de vulnerabilidades web.
+Desarrollo de herramientas para análisis de vulnerabilidades web y técnicas de web-scrapping.
 
 ### ft_blockchain
 Implementación de un sistema básico de blockchain.
