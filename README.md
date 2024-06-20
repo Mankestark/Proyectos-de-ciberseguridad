@@ -2,15 +2,6 @@
 
 En este repositorio se encuentran los proyectos que se han aprobado en el campus de ciberseguridad. Cada proyecto aborda diferentes aspectos de la ciberseguridad, proporcionando una experiencia práctica y teórica sólida.
 
-## Contenido
-
-- arachnida
-- ft_blockchain
-- ft_onion
-- ft_otp
-- iron-dome
-- stockholm
-
 ## Descripción de Proyectos
 
 ### arachnida
