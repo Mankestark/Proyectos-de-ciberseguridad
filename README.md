@@ -1,4 +1,4 @@
-# Proyectos Terminados del Bootcamp de Ciberseguridad
+# Proyectos  de Ciberseguridad
 
 En este repositorio se encuentran los proyectos que se han aprobado en el campus de ciberseguridad. Cada proyecto aborda diferentes aspectos de la ciberseguridad, proporcionando una experiencia práctica y teórica sólida.
 
@@ -21,6 +21,9 @@ Proyecto de seguridad defensiva centrado en la detección y mitigación de ataqu
 
 ### stockholm
 Simulación de ataques de ransomware y estrategias de defensa.
+
+### phising
+Ejercicio/tutorial de como utilizar la herramienta seetoolkit para realizar un ataque phising y obtener las credenciales de la victima.
 
 ## Licencia
 
